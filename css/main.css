@@ -1,0 +1,334 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 2em;
+  max-width: 100%;
+  letter-spacing: .06em;
+}
+
+header {
+  position: absolute;
+  bottom: 0;
+  display: block;
+  top: 0;
+  left: 0;
+  color: #ABA7AA;
+  font-size: 2rem;
+  line-height: 160vh;
+  font-weight: normal;
+  text-align: center;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  letter-spacing: .2em;
+  z-index: 1;
+  width: 100%;
+}
+
+.parallax-text-container {
+  max-width: 650px;
+  margin: 0 auto;
+  padding-top: 1.5em;
+  padding-left: 1em;
+}
+
+.parallax-text-container p {
+  font-size: 20px
+}
+
+.parallax-text-container h2 {
+  font-size: 16px
+}
+
+section.module:last-child {
+  margin-bottom: 0;
+}
+
+section.module.parallax {
+  height: 800px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+section.module.parallax h1 {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 40px;
+  line-height: 140vh;
+  font-weight: 700;
+  text-align: center;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+section.module.intro {
+  background-image: url("../images/gio.jpg");
+  height: 850px;
+}
+
+section.module.gio {
+  background-image: url("../images/gio2.jpg");
+  height: 850px;
+}
+
+section.module.young {
+  background-image: url("https://static.wixstatic.com/media/d3233c_c0793025828743f4ac9a6b0efa739957~mv2.jpg/v1/fill/w_1960,h_1320,al_c,q_90,usm_0.66_1.00_0.01/Website%20Cover.webp");
+  height: 850px;
+}
+
+section.module.hayes {
+  background-image: url("../images/hayes.jpg");
+  height: 850px;
+}
+
+section.module.pelle {
+  background-image: url("../images/pelle.jpg");
+  height: 850px;
+}
+
+section.module.guaico {
+  background-image: url("../images/guaico.jpg");
+  height: 850px;
+  background-position: 50% 50%;
+}
+
+img {
+  display: block;
+  margin-right: 5em;
+  margin-left: auto;
+  width: 80%;
+  padding-top: 1em;
+}
+
+.img.caption {
+  font-size: 18px;
+  opacity: .5;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+}
+
+.caption{
+  font-size: 15px;
+  opacity: .5;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.page.young {
+  background-color: #fff;
+  color: #000;
+  width: 450px;
+  padding: 1em 2em 1em 2em;
+  margin: 4rem;
+  opacity: .7;
+  font-size: 25px;
+  position: absolute;
+  left: 0px;
+}
+
+.page.hayes {
+  background-color: #fff;
+  color: #000;
+  width: 450px;
+  padding: 1em 2em 1em 2em;
+  margin: 4rem;
+  opacity: .7;
+  font-size: 25px;
+  position: absolute;
+  right: 0px;
+}
+
+.page.guaico {
+  background-color: #fff;
+  color: #000;
+  width: 550px;
+  padding: 1em 2em 1em 2em;
+  margin: 4rem;
+  opacity: .7;
+  font-size: 25px;
+  position: absolute;
+  left: 0;
+}
+
+.page.pelle {
+  background-color: #fff;
+  color: #000;
+  width: 550px;
+  padding: 1em 2em 1em 2em;
+  margin: 4rem;
+  opacity: .7;
+  font-size: 25px;
+  position: absolute;
+  right: 0px;
+}
+
+
+.page.gio {
+  background-color: #fff;
+  color: #000;
+  width: 550px;
+  padding: 50px;
+  margin: 2em;
+  margin-left: auto;
+  opacity: .7;
+  font-size: 25px;
+  position: absolute;
+  left: 2%;
+}
+
+.links {
+  opacity: .5;
+}
+
+iframe {
+  padding-top: 1em;
+  padding-left: 2em;
+}
+
+video {
+  padding-top: 1em;
+  padding-left: 2em;
+}
+
+footer {
+  font-size: 15px;
+  padding: 2em 2em;
+  padding-left: 1em;
+  padding-right: 5em;
+  text-align: center;
+}
+
+@media screen and (max-width: 850px) {
+  header {
+    position: relative;
+    display: block;
+    top: 0;
+    left: auto;
+    right: auto;
+    color: #ABA7AA;
+    font-size: 1.5rem;
+    line-height: 160vh;
+    letter-spacing: .1em;
+    z-index: 1;
+    max-width: 850px;
+    width: 100%;
+  }
+
+  section.module.parallax {
+    height: 120vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    width: 850px;
+  }
+
+  .parallax-text-container {
+    width: 850px;
+    margin: 0 auto;
+    padding-top: 1.5em;
+    padding: 2em 6em 2em 6em;
+  }
+
+  .parallax-text-container p {
+    font-size: 15px;
+  }
+  .parallax-text-container h2 {
+    font-size: 13px;
+  }
+
+  section.module.intro {
+    background-image: url("../images/gio.jpg");
+    height: 900px;
+  }
+
+  section.module.gio {
+    background-image: url("../images/gio2.jpg");
+    height: 900px;
+  }
+
+  section.module.hayes {
+    background-image: url("../images/hayes.jpg");
+    height: 900px;
+  }
+
+  img {
+    margin-right: 3em;
+    margin-left: 7em;
+    width: 60%;
+    padding-top: 1em;
+  }
+
+  .img.caption {
+    font-size: 15px;
+    opacity: .5;
+    width: 600px;
+  }
+
+  .caption{
+    font-size: 15px;
+    opacity: .5;
+    width: 700px;
+  }
+
+  .page.young {
+    width: 450px;
+    padding: 1em 2em 1em 2em;
+    margin: 2rem;
+    opacity: .7;
+    font-size: 20px;
+    position: absolute;
+    left: 0px;
+  }
+
+  .page.hayes {
+    width: 450px;
+    padding: 1em 2em 1em 2em;
+    margin: 1rem;
+    opacity: .7;
+    font-size: 20px;
+    position: absolute;
+    left: 10%;
+  }
+
+  .page.guaico {
+    width: 450px;
+    padding: 1em 2em 1em 2em;
+    margin: 2rem;
+    opacity: .7;
+    font-size: 20px;
+    position: absolute;
+    left: 0;
+  }
+
+  .page.pelle {
+    width: 450px;
+    padding: 1em 2em 1em 2em;
+    margin: 2rem;
+    opacity: .7;
+    font-size: 20px;
+    position: absolute;
+    left: 60%;
+  }
+
+  .page.gio {
+    width: 450px;
+    padding: 50px;
+    margin: 3em;
+    margin-left: auto;
+    opacity: .7;
+    font-size: 20px;
+    position: absolute;
+    left: 3%;
+  }
+
+  footer {
+    font-size: 11px;
+    padding: 2em 3em 2em 3em;
+    width: 700px;
+  }
+
+}
