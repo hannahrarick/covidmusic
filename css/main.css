@@ -186,6 +186,7 @@ img {
 iframe {
   padding-top: 1em;
   padding-left: 2em;
+  border: 0px;
 }
 
 video {
