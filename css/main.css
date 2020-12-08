@@ -51,7 +51,6 @@ section.module:last-child {
 section.module.parallax {
   height: 800px;
   background-repeat: no-repeat;
-  background-attachment: fixed;
   background-size: cover;
 }
 
@@ -221,7 +220,6 @@ footer {
   section.module.parallax {
     height: 120vh;
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-size: cover;
     background-position: center;
     width: 850px;
@@ -234,11 +232,18 @@ footer {
     padding: 2em 6em 2em 6em;
   }
 
+  .caption{
+    font-size: 13px;
+    opacity: .5;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+
   .parallax-text-container p {
     font-size: 15px;
   }
   .parallax-text-container h2 {
-    font-size: 13px;
+    font-size: 14px;
   }
 
   section.module.intro {
