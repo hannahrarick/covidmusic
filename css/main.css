@@ -51,6 +51,7 @@ section.module:last-child {
 section.module.parallax {
   height: 800px;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   background-size: cover;
 }
 
@@ -230,13 +231,6 @@ footer {
     margin: 0 auto;
     padding-top: 1.5em;
     padding: 2em 6em 2em 6em;
-  }
-
-  .caption{
-    font-size: 13px;
-    opacity: .5;
-    padding-left: 1em;
-    padding-right: 1em;
   }
 
   .parallax-text-container p {
